@@ -1,0 +1,22 @@
+# conda env create --name neur_resp_viz --file environment.yml
+name: neur_resp_viz
+channels:
+  # - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - ipywidgets
+  - pandas
+  - jupyterlab
+  # - scikit-learn
+  # - jupyterlab-git
+  # - pyqt
+  # - pyqtgraph
+  # - pip:
+    # - nbconvert
+    # - figurl-jupyter
+
+
