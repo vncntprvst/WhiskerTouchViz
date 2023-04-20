@@ -1,20 +1,20 @@
 ### Whisker Touch Response Curves
 
-**Install**
+**Install**  
 ```bash
-git clone repo
-cd repo
+git clone https://github.com/vncntprvst/WhiskerTouchViz.git
+cd WhiskerTouchViz
 conda env create --name neur_resp_viz --file environment.yml
 ```
 
-**Use**
+**Use**  
+Navigate to `WhiskerTouchViz` directory then 
 ```bash
 conda activate neur_resp_viz
-cd repo
 jupyter lab
 ```
 
-Go to the `notebooks` folder and open `WhiskerResponseCurves.ipynb`.
+From the `notebooks` folder, open `WhiskerResponseCurves.ipynb`.  
 
-**Git**
-After updating notebooks, run `find . -name "*.ipynb" -exec jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace {} \;` before staging changes.
+**Git**  
+After updating notebooks, run `find . -name "*.ipynb" -exec jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace {} \;` before staging changes to clear outputs.
