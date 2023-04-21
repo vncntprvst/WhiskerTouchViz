@@ -15,8 +15,11 @@ dependencies:
   # - jupyterlab-git
   # - pyqt
   # - pyqtgraph
-  # - pip:
+  - pip:
     # - nbconvert
     # - figurl-jupyter
+    # - svg.path
+    - skunk
+
 
 
