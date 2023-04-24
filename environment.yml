@@ -20,6 +20,8 @@ dependencies:
     # - figurl-jupyter
     # - svg.path
     - skunk
+    - flask 
+    - plotly
 
 
 
