@@ -18,7 +18,7 @@ uv venv --python 3.10
 
 # Install dependencies
 echo "Installing dependencies from requirements.txt..."
-uv pip install -r requirements.txt
+uv pip install -r setup/requirements.txt
 
 echo ""
 echo "Environment setup complete!"

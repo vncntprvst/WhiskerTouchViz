@@ -26,8 +26,8 @@ setup.bat
 
 ### macOS/Linux
 ```bash
-chmod +x setup.sh
-./setup.sh
+chmod +x setup/setup.sh
+./setup/setup.sh
 ```
 
 ## Manual Setup
@@ -39,7 +39,7 @@ uv venv --python 3.10
 
 2. Install dependencies:
 ```bash
-uv pip install -r requirements.txt
+uv pip install -r setup/requirements.txt
 ```
 
 3. Activate environment:
