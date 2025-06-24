@@ -32,9 +32,9 @@ echo "  uv run python your_script.py"
 echo ""
 
 # Optionally activate the environment
-read -p "Would you like to activate the environment now? (y/n): " activate
-if [[ $activate == "y" || $activate == "Y" ]]; then
-    echo "Activating environment..."
-    source .venv/bin/activate
-    echo "Environment activated! You can now run: jupyter lab"
-fi
+# read -p "Would you like to activate the environment now? (y/n): " activate
+# if [[ $activate == "y" || $activate == "Y" ]]; then
+echo "Activating environment..."
+source .venv/bin/activate
+#    echo "Environment activated! You can now run: jupyter lab"
+# fi
