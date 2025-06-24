@@ -3,20 +3,19 @@
 For installation, see [setup instructions](setup/SETUP.md).
 
 **Use**  
-Navigate to `WhiskerTouchViz` directory to activate the environment:
+Navigate to `WhiskerTouchViz` directory, then run:
+
 ```bash
-# Windows
-.venv\Scripts\activate
+# Run Jupyter Lab directly
+uv run jupyter lab
 
-# macOS/Linux
-source .venv/bin/activate
-```
-Then run Jupyter Lab:
-```
-jupyter lab
+# Run Python scripts
+uv run python your_script.py
+
+# Run notebooks
+uv run jupyter notebook notebooks/WhiskerResponseCurves.ipynb
 ```
 
-From the `notebooks` folder, open `WhiskerResponseCurves.ipynb`.  
 
 **Git**  
 After updating notebooks, run `find . -name "*.ipynb" -exec jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace {} \;` before staging changes to clear outputs.

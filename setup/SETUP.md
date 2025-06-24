@@ -31,16 +31,11 @@ pip install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### Alternative: Install via pip (any platform)
-```bash
-pip install uv
-```
-
 ## Quick Setup
 
 ### Windows
 ```cmd
-setup.bat
+setup\setup.bat
 ```
 
 ### macOS/Linux
@@ -92,10 +87,3 @@ uv run python your_script.py
 # Run notebooks
 uv run jupyter notebook notebooks/WhiskerResponseCurves.ipynb
 ```
-
-## Why uv?
-
-- **Fast**: Up to 10-100x faster than pip
-- **Reliable**: Consistent dependency resolution
-- **Simple**: Single tool for environment and package management
-- **Compatible**: Works with existing pip requirements.txt files
