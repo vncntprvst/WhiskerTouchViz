@@ -6,14 +6,33 @@ This project uses [uv](https://docs.astral.sh/uv/) for fast and reliable Python 
 
 Install uv if you haven't already:
 
-```bash
-# On Windows (PowerShell)
+### Windows Installation
+
+**Option 1: PowerShell (recommended)**
+```powershell
+# First, set execution policy to allow script execution
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
+# Then install uv
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-# On macOS/Linux
+**Option 2: Via pip (if you have Python already)**
+```cmd
+pip install uv
+```
+
+**Option 3: Download manually**
+- Download the installer from: https://github.com/astral-sh/uv/releases
+- Run the `.exe` installer
+
+### macOS/Linux Installation
+```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
-# Or via pip
+### Alternative: Install via pip (any platform)
+```bash
 pip install uv
 ```
 

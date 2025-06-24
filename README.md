@@ -1,16 +1,18 @@
 ### Whisker Touch Response Curves
 
-**Install**  
-```bash
-git clone https://github.com/vncntprvst/WhiskerTouchViz.git
-cd WhiskerTouchViz
-conda env create --name neur_resp_viz --file environment.yml
-```
+For installation, see [setup instructions](setup/SETUP.md).
 
 **Use**  
-Navigate to `WhiskerTouchViz` directory then 
+Navigate to `WhiskerTouchViz` directory to activate the environment:
 ```bash
-conda activate neur_resp_viz
+# Windows
+.venv\Scripts\activate
+
+# macOS/Linux
+source .venv/bin/activate
+```
+Then run Jupyter Lab:
+```
 jupyter lab
 ```
 
