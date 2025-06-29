@@ -1,7 +1,7 @@
 # WhiskerTouchViz Product Requirements Document
 
 ## Overview
-WhiskerTouchViz is a lightweight tool for visualizing how neurons in the principal trigeminal nucleus (PrV) respond to whisker touch at various distances. The project provides both Jupyter notebooks for exploration and a simple Flask web app for interactive demonstrations. Users can manipulate inputs such as wall distance and observe the resulting tuning curves of individual or combined neuron responses.
+WhiskerTouchViz is a lightweight tool for visualizing how neurons in the principal trigeminal nucleus (PrV) respond to whisker touch at various distances.  The focus is on providing a **simple web UI** where sliders and other widgets let the user explore how distance and neuron parameters shape firing rates.  Both Jupyter notebooks and a small Flask app demonstrate the calculations and plotting code.  Users can view tuning curves for single neurons or combine multiple neurons (including intermediate inhibitory ones) to see aggregate responses.
 
 ## Goals
 - Offer an easy to use interface to inspect tuning curves of PrV neurons.
